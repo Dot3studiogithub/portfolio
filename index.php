@@ -63,17 +63,125 @@
 <!-- start hero area  -->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4 text-center text-secondary">Welcome</h1>
+  <div class="row">
+  <div class="col-md-6">
+  <h1 class="display-4 text-center text-secondary">Welcome</h1>
     <div class="text-center">
   <div class="display-4 text-warning">DOT3STUDIO</div>
   <div class="h1 text-light">WE ARE <span class="type text-warning h1"></span></div>
   <a  href="portfolio.php" class="btn btn-outline-primary">DISCOVER ME</a>
+
+  <ul class="nav justify-content-center my-5">
+            <li class="nav-item">
+    <a class="nav-link social-link1 ml-2" href="#">
+        <i class="fab fa-facebook-f fa-2x text-light" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link social-link2 ml-2" href="#">
+        <i class="fab fa-twitter fa-2x text-light" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link social-link3 ml-2" href="#">
+        <i class="fab fa-github fa-2x text-light" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link social-link4 ml-2" href="#">
+        <i class="fas fa-envelope fa-2x text-light" aria-hidden="true"></i>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link social-link5 ml-2" href="#">
+        <i class="fab fa-youtube fa-2x text-light" aria-hidden="true"></i>
+    </a>
+  </li>
+ 
+</ul>
+
 </div>
+  </div>
+  <div class="col-md-6 text-center mt-3">
+  <img src="images/group.png" alt="" width="350px" height="350px">
+  </div>
+  </div>
 
   </div>
 </div>
-
 <!-- end hero area  -->
+
+
+<!-- start post area  -->
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-9">
+    <div class="h3">Recent Post</div>
+    <div class="row my-5">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body boxx">
+            <img src="images/1.png" alt="" class="card-img-top image">
+            <div class="middle">
+              <div class="text">post title</div>
+            </div>
+          </div><!-- end card body -->
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+  <!-- end col-9  -->
+  <div class="col-md-3">
+    <div class="card">
+      <div class="card-header bg-secondary text-light">Category</div>
+      <div class="card-body">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Recent Post</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Top Post</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Post By Cource</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Post By date</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end card  -->
+    <div class="card">
+      <div class="card-header bg-secondary text-light">Post Archive</div>
+      <div class="card-body">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="nav-link">May 2020</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">June 2020</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">July 2020</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Auguest 2020</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+<!-- end col-3  -->
+</div>
+</div>
+
+
+
+<!-- end post area  -->
 
 
 
