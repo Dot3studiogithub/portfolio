@@ -74,31 +74,6 @@
 </div>
 
 <!-- end hero area  -->
-<!-- services section start -->
-<div class="container-fluid">
-    <div class="h3 text-center">Our services</div>
-    <div class="row">
-        <!-- start service card first  -->
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <div class="text-center">
-                        <i class="fab fa-html5 fa-5x text-danger"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- end service card first  -->
-
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-    </div>
-</div>
-
-
-<!-- end services section  -->
-
 
 
 
