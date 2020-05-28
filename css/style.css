@@ -18,6 +18,7 @@
 body{
     background-color: silver;
 }
+
 .navbar{
     background-color: #000000!important;
 }
@@ -26,11 +27,12 @@ body{
     font-weight: 700;
 }
 .jumbotron{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url('../images/female-software-engineer-coding-on-computer-3861972.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/female-software-engineer-coding-on-computer-3861972.jpg');
     background-attachment: fixed;
+    height: 100vh;
     
 }
-.display-4{
+.display-4, .display-1{
     font-family: 'Lilita One', cursive;
 }
 

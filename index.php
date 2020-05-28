@@ -19,8 +19,9 @@
 <body onload="myfunction()">
 
 <div id="loading"></div>
-<!-- navigation area start  -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- navigation area start  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="#">
   <img src="images/dot3studio_logo.png" alt="" width="100px" height="26px">
   </a>
@@ -65,26 +66,17 @@
 <!-- start hero area  -->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-  <div class="row">
-  <div class="col-md-6">
-  <h1 class="display-4 text-center text-light">Welcome</h1>
+ <h1 class="display-1 text-center text-light mt-5">Welcome</h1>
     <div class="text-center">
-  <div class="display-4 text-warning">DOT3STUDIO</div>
-  <div class="h3 text-light">WE ARE <span class="type text-warning h3"></span></div>
-  <a  href="portfolio.php" class="btn btn-outline-primary">DISCOVER ME</a>
-
-  
+  <div class="display-1 text-warning">DOT3STUDIO</div>
+  <div class="h1 text-light">WE ARE <span class="type text-warning h1"></span></div>
+  <a  href="portfolio.php" class="btn btn-outline-primary mt-5">DISCOVER ME</a>
 
 </div>
-  </div>
-  <div class="col-md-6 text-center mt-3">
-  <img src="images/group.png" alt="" width="350px" height="350px">
-  </div>
-  </div>
-
   </div>
 </div>
 <!-- end hero area  -->
+
 
 
 <!-- start post area  -->
