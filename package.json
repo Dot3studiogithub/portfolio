@@ -1,0 +1,12 @@
+{
+    "name" : "dot3studio",
+    "description" : "web developer ",
+    "homepage" : "",
+    "keywords" : ["design", "developing", "freelancing"],
+    "author" : "kapil adabas <codemonk22233@gmail.com>",
+    "contributors" : [],
+    "dependencies" : [],
+    "repository" : {"type": "git", "url": "git://github.com/Dot3studiogithub/portfolio"},
+    "main" : "underscore.js",
+    "version" : "1.0.0"
+  }

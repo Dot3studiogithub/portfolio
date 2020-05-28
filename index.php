@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dot3studio</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/all.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/typed.js"></script>
-    </head>
-<body onload="myfunction()">
+<?php
+$page = 'home';
+ include("includes/header.php");?>
 
 <div id="loading"></div>
 
@@ -31,7 +15,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item ">
+      <li class="nav-item <?php if($page=='home'){echo 'active';}?>">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -66,16 +50,16 @@
 <!-- start hero area  -->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
- <h1 class="display-1 text-center text-light mt-5">Welcome</h1>
+ <h1 class="display-1 text-center text-light mt-5" data-aos="fade-zoom-in" data-aos-delay="700">Welcome</h1>
     <div class="text-center">
-  <div class="display-1 text-warning">DOT3STUDIO</div>
+  <div class="display-1 text-warning" data-aos="fade-zoom-out" data-aos-delay="1100">DOT3STUDIO</div>
   <div class="h1 text-light">WE ARE <span class="type text-warning h1"></span></div>
   <a  href="portfolio.php" class="btn btn-outline-primary mt-5">DISCOVER ME</a>
 
 </div>
   </div>
 </div>
-<!-- end hero area  -->
+<!-- end hero area -->
 
 
 
@@ -151,7 +135,7 @@
   <div class="h3 text-center text-uppercase my-5 text-light">what do we offer</div>
   <div class="row">
   <div class="col-md-6" >
-     <div class="text-center" data-aos="fade-right">
+     <div class="text-center" data-aos="fade-right" data-aos-delay="300">
        <div class="h1 my-5 text-light">about my skills</div>
        <div>
          <img src="images/Lantern.png" alt="" width="250px" height="250px" class="rounded-circle">
@@ -161,9 +145,9 @@
     <!-- end col 6 for text  -->
     <div class="col-md-6">
       <div class="">
-        <div class="card bg-transparent border-0" data-aos="fade-up">
+        <div class="card bg-transparent border-0">
           <div class="card-body">
-          <div class="my-4">
+          <div class="my-4" data-aos="fade-in" data-aos-delay="300">
                     <label for="" class="text-success">HTML</label>
 
                     <div class="progress">
@@ -171,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="my-4">
+                <div class="my-4" data-aos="fade-in" data-aos-delay="700">
                     <label for="" class="text-warning">CSS</label>
 
                     <div class="progress">
@@ -179,7 +163,7 @@
                     </div>
                 </div>
 
-                <div class="my-4">
+                <div class="my-4" data-aos="fade-in" data-aos-delay="1100">
                     <label for="" class="text-info">JAVASCRIPT</label>
 
                     <div class="progress">
@@ -187,7 +171,7 @@
                     </div>
                 </div>
 
-                <div class="my-4">
+                <div class="my-4" data-aos="fade-in" data-aos-delay="1500">
                     <label for="" class="text-danger">PHP</label>
 
                     <div class="progress">
@@ -195,7 +179,7 @@
                     </div>
                 </div>
 
-                <div class="my-4">
+                <div class="my-4" data-aos="fade-in" data-aos-delay="1900">
                     <label for="" class="text-primary">Adobe XD</label>
 
                     <div class="progress">
@@ -203,7 +187,7 @@
                     </div>
                 </div>
                
-                <div class="my-4">
+                <div class="my-4" data-aos="fade-in" data-aos-delay="2100">
                     <label for="" class="text-danger">Adobe illustrator</label>
 
                     <div class="progress">
@@ -238,28 +222,28 @@
       <div class="" id="social-iconss">
       <ul class="nav mx-auto my-5">
             <li class="nav-item">
-    <a class="nav-link social-link1 ml-2" href="#">
+    <a class="nav-link social-link1 ml-2" href="#" data-aos="zoom-in">
         <i class="fab fa-facebook-f fa-2x text-light" aria-hidden="true"></i>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link social-link2 ml-2" href="#">
+    <a class="nav-link social-link2 ml-2" href="#" data-aos="zoom-in" data-aos-delay="400">
         <i class="fab fa-twitter fa-2x text-light" aria-hidden="true"></i>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link social-link3 ml-2" href="#">
+    <a class="nav-link social-link3 ml-2" href="#" data-aos="zoom-in" data-aos-delay="800">
         <i class="fab fa-github fa-2x text-light" aria-hidden="true"></i>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link social-link4 ml-2" href="#">
+    <a class="nav-link social-link4 ml-2" href="#" data-aos="zoom-in" data-aos-delay="1200">
         <i class="fas fa-envelope fa-2x text-light" aria-hidden="true"></i>
     </a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link social-link5 ml-2" href="#">
+    <a class="nav-link social-link5 ml-2" href="#" data-aos="zoom-in" data-aos-delay="1600">
         <i class="fab fa-youtube fa-2x text-light" aria-hidden="true"></i>
     </a>
   </li>
