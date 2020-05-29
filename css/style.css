@@ -18,7 +18,9 @@
 body{
     background-color: silver;
 }
-
+a{
+    text-decoration: none!important;
+}
 .navbar{
     background-color: #000000!important;
 }
@@ -160,4 +162,12 @@ background-size: cover;
     display: flex;
     justify-content: center;
 
+}
+
+
+/* profile page style  */
+
+.port-me{
+    padding-top: 200px;
+   margin: 0 auto;
 }
