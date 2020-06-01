@@ -1,5 +1,5 @@
   <!-- navigation area start  -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
   <a class="navbar-brand" href="#">
   <img src="images/dot3studio_logo.png" alt="" width="100px" height="26px">
   </a>
