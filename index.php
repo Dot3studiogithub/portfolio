@@ -1,7 +1,8 @@
-<?php include("includes/header.php");?>
+<?php $page='home'; 
+include("includes/header.php");?>
 <?php include("includes/navigation.php");?>
 <!-- hero section start  -->
-<div class="hero-section">
+<div class="hero-section border-0">
 <div class="jumbotron bg-transparent border-0">
   <h1 class="display-3 text-center text-light mt-5 font-weight-bold">Welcome</h1>
   <h6 class="h6 text-center text-light font-weight-bold">To</h6>
