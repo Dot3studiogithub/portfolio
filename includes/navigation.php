@@ -12,26 +12,18 @@
       <li class="nav-item <?php if($page=='home'){echo 'active';}?>">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item <?php if($page=='profile'){echo 'active';}?>">
-        <a class="nav-link" href="dot3studio_profile.php">profile</a>
+      
+      <li class="nav-item <?php if($page=='courses'){echo 'active';}?>">
+        <a class="nav-link" href="cource_dot3studio.php">courses</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          cources
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">html</a>
-          <a class="dropdown-item" href="#">js</a>
-          <a class="dropdown-item" href="#">php</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">more</a>
-        </div>
+      <li class="nav-item <?php if($page=='about us'){echo 'active';}?>">
+        <a class="nav-link" href="about_dot3studio.php">about us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">about us</a>
+      <li class="nav-item <?php if($page=='services'){echo 'active';}?>">
+        <a class="nav-link" href="services_dot3studio.php">Services</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">contact us</a>
+      <li class="nav-item <?php if($page=='contact us'){echo 'active';}?>">
+        <a class="nav-link" href="contact_dot3studio.php">contact us</a>
       </li>
     </ul>
    
